@@ -164,3 +164,20 @@ footer {
   background-color: #388E3C;
   transform: scale(1.1);
 }
+ /* How To Download Button */
+.how-to-download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ff9800; /* Orange for guidance */
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.how-to-download-button:hover {
+  background-color: #e68900;
+  transform: scale(1.1);
+}
