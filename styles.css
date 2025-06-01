@@ -18,6 +18,23 @@ header {
 }
 
 .logo {
+/* How to Setup Button */
+.how-to-setup-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #673AB7; /* Purple for setup guidance */
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.how-to-setup-button:hover {
+  background-color: #512DA8;
+  transform: scale(1.1);
+}
   font-size: 1.8em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -179,5 +196,22 @@ footer {
 
 .how-to-download-button:hover {
   background-color: #e68900;
+  transform: scale(1.1);
+}
+/* How to Setup Button */
+.how-to-setup-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #673AB7; /* Purple for setup guidance */
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.how-to-setup-button:hover {
+  background-color: #512DA8;
   transform: scale(1.1);
 }
